@@ -6,6 +6,8 @@ If an unset value is accessed, the returned value will be false.
 The `GraciousObject` does not throw an `Exception`.
 It extends class [DynamicObject](https://learn.microsoft.com/en-us/dotnet/api/system.dynamic.dynamicobject) and implements [INotifyPropertyChanged](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.inotifypropertychanged).
 
+The package is available on [nuget.org](https://www.nuget.org/packages/GraciousObject/1.0.0). It targets netstandard2.0.
+
 # Code Example
 
 ```
