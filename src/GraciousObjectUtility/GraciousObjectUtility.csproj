@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>GlassBee.Utilities</RootNamespace>
+    <LanguageVersion>7.3</LanguageVersion>
+    <Deterministic>true</Deterministic>
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+    <DebugType>embedded</DebugType>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>GraciousObject</PackageId>
+    <Title>GraciousObject</Title>
+    <Version>1.0.0</Version>
+    <Authors>Nils Philip</Authors>
+    <Copyright>Copyright (c) Nils Philip 2024</Copyright>
+    <RepositoryUrl>https://github.com/nilsphilip/GraciousObject</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/nilsphilip/GraciousObject</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageTags>GraciousObject;Dynamic;Dynamics;NotifyPropertyChanged</PackageTags>
+    <Description>Represents an object whose members can be dynamically added at run time, similar to ExpandoObject. If an unset value is accessed, the returned value will be false. The GraciousObject does not throw an Exception.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+
+</Project>

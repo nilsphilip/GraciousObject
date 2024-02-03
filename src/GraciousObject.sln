@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraciousObjectUtility", "GraciousObjectUtility\GraciousObjectUtility.csproj", "{671F5707-F6DE-4431-8FAE-E9AECC830DA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraciousObjectUtility.Tests", "GraciousObjectUtility.Tests\GraciousObjectUtility.Tests.csproj", "{287D98E6-FA37-4C55-AAE5-97EF3D1AF15B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{671F5707-F6DE-4431-8FAE-E9AECC830DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671F5707-F6DE-4431-8FAE-E9AECC830DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671F5707-F6DE-4431-8FAE-E9AECC830DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671F5707-F6DE-4431-8FAE-E9AECC830DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287D98E6-FA37-4C55-AAE5-97EF3D1AF15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287D98E6-FA37-4C55-AAE5-97EF3D1AF15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287D98E6-FA37-4C55-AAE5-97EF3D1AF15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287D98E6-FA37-4C55-AAE5-97EF3D1AF15B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61ED69A0-6DE2-48E5-991D-5FC1793DC262}
+	EndGlobalSection
+EndGlobal
